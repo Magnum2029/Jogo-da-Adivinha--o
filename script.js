@@ -3,7 +3,7 @@ let tentativas = 0;
 let maxTentativas = 10;
 
 function verificarPalpite() {
-    const palpite = parseInt(document.getElementById("palpite")).value;
+    const palpite = parseInt(document.getElementById("palpite").value);
     const mensagem = document.getElementById("mensagem");
     const tentativasRestantes = document.getElementById("tentativas");
 
